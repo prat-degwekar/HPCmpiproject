@@ -137,7 +137,7 @@ int main (int argc, char *argv[])
 /*****************************************************************************/
    for (i=0;i<IMAGE_SLICE;i++)
       fft(&a_slice[i][0], w_common, n, logn);
-   //gettimeofday(&etime[checkpoint++], (struct timeval*)0);
+   gettimeofday(&etime[checkpoint++], (struct timeval*)0);
 /*****************************************************************************/
 /*			Transpose 2-D image				     */
 /*****************************************************************************/
